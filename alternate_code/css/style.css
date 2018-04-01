@@ -1,0 +1,49 @@
+h1{
+    font-family: 'Inknut Antiqua', serif;
+}
+td{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    padding: 10%;
+}
+
+tr:nth-of-type(1) td:nth-of-type(1){
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+tr:nth-of-type(1) td:nth-of-type(2){
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+tr:nth-of-type(1) td:nth-of-type(3){
+    border-bottom: solid black;
+}
+
+tr:nth-of-type(2) td:nth-of-type(1){
+    border-right: solid black;
+    border-bottom: solid black
+}
+
+tr:nth-of-type(2) td:nth-of-type(2){
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+tr:nth-of-type(2) td:nth-of-type(3){
+    border-bottom: solid black;
+}
+
+
+tr:nth-of-type(3) td:nth-of-type(1){
+    border-right: solid black;
+}
+
+tr:nth-of-type(3) td:nth-of-type(2){
+    border-right: solid black;
+}
+
+
+
